@@ -1,7 +1,10 @@
+from flask import Flask, render_template, current_app as app
+
+app = Flask(__name__)
+
 @app.route('/')
 def index():
     return "Welcome to Venessa\'s Rainbow Project"
-    return 'Welcome to Venessa\'s Rainbow Project'
 
 @app.route('/red')
 def red():
