@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-<title>What's your pet peeve?</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/main.css">                                         
+    <title>Inspiration Board</title>
 </head>
 <body>
-  <h1>Send a message</h1>
-  <form action="/petpeeve" method="post">
-      <input type="text" name="message" />
-      <input type="submit" value="Submit" />
-  
-  </form>
-
+    <form id="message-form" action="/sent" method="post">
+        <h1>Send me an inspirational message!</h1>
+        <input type="text" id="message" name="message" placeholder="Message"><br><br>
+        <input type="text" id="author" name="author" placeholder="Name"><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
 

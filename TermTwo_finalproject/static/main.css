@@ -1,0 +1,23 @@
+#message-form{
+    width:50vw;
+    margin:auto;
+    background-color:mediumpurple;
+}
+
+input[type="submit"]{
+    padding:5px;
+    border-radius:20px;
+    background-color: mediumpurple;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+input[type="text"]{
+    padding:10px;
+    border-radius: 20px;
+    border:none;
+}
+
+input:focus{
+    border:none;
+}
