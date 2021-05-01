@@ -1,5 +1,11 @@
+
+
+body  {
+  background-image: url("http://www.esa.int/extension/pillars/design/pillars/images/nebula.jpg");
+}
+
 #message-form{
-    width:50vw;
+    width:100vw;
     margin:auto;
     background-color:mediumpurple;
 }
